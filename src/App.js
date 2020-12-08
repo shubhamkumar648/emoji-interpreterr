@@ -9,7 +9,8 @@ const emojiDictionary = {
   "😀": "smile",
   "🙁": "Sad",
   "😋": "testy",
-  "🙃": "ulta"
+  "🙃": "ulta",
+  '😂': "laughing"
 };
 
 var emojiList = Object.keys(emojiDictionary);
