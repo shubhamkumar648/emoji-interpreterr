@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var name = "Shubham";
+var name = "To know about emoji";
 
 // shoppingList = ['egg', 'bread', 'peanutbutterr', 'cheese']
 
