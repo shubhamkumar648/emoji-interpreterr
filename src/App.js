@@ -10,7 +10,7 @@ const emojiDictionary = {
   "🙁": "Sad",
   "😋": "testy",
   "🙃": "ulta",
-  '😂': "laughing"
+  "😂": "laughing"
 };
 
 var emojiList = Object.keys(emojiDictionary);
@@ -37,7 +37,7 @@ export default function App() {
 
       <input onChange={emojiSeen} />
       <h2> {meaning}</h2>
-      <h3>Emoji we know</h3>
+      <h3> Click on Below emoji</h3>
 
       {emojiList.map((item) => {
         return (
