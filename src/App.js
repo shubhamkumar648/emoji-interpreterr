@@ -23,6 +23,10 @@ export default function App() {
 
     var meaning = emojiDictionary[userInput];
 
+    if (meaning === undefined) {
+      meaning = "we don't have in our database";
+    }
+
     setMeaning(meaning);
   }
 
@@ -35,7 +39,7 @@ export default function App() {
     <div className="App">
       <h1 style={{ backgroundColor: "green" }}>Welcome ! {name}</h1>
 
-      <input onChange={emojiSeen} />
+      <input placeholder="paste your emoji" onChange={emojiSeen} />
       <h2> {meaning}</h2>
       <h3> Click on Below emoji</h3>
 
