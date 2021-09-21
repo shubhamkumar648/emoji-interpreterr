@@ -10,7 +10,13 @@ const emojiDictionary = {
   "🙁": "Sad",
   "😋": "testy",
   "🙃": "ulta",
-  "😂": "laughing"
+  "😂": "laughing",
+  "😭": "Crying",
+  "😍": "Loving",
+  "😴": "Sad",
+  "😇": "angel",
+  "😈": "Devil",
+  "👋": "hi"
 };
 
 var emojiList = Object.keys(emojiDictionary);
